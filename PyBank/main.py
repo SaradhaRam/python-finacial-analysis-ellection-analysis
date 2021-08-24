@@ -81,7 +81,7 @@ output_path = os.path.join("Analysis", "report.csv")
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_path, 'w', newline='') as csvfile:
 
-    # Initialize csv.writer
+    # Initialize the csv.writer
     csvwriter = csv.writer(csvfile, delimiter=",")
 
     # Write the rows in csv file
